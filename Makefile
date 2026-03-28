@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
 TARGET = cinema_db_cpp
-SOURCES = main.cpp Film.cpp FilmArray.cpp file_operations.cpp
+SOURCES = main.cpp Film.cpp FilmArray.cpp File_Operations.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
 all: $(TARGET)
